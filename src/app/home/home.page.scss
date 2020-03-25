@@ -29,3 +29,96 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+#tela {
+  //--background: linear-gradient(white, rgb(226, 256, 0, 0.4));
+  --background: rgb(226, 256, 0, 0.2)
+}
+
+img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+  width: 75%;
+  height: 33%;
+  margin: auto;
+}
+
+.input-container {
+  background: white;
+  width: 75%;
+  height: 40%;
+  margin: auto;
+  margin-top: 80%;
+  border-radius: 20px;
+}
+
+.input-rounded {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.button-grid {
+  width: 75%;
+  height: 8%;
+  margin: auto;
+  position: relative;
+  top: 44%;
+  background: white;
+  border-radius: 30px
+}
+
+.login-color {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #FF0000;
+  border-radius: 30px;
+  height: 100%;
+  width: 50%;
+}
+
+.button-row {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.login-button {
+  position: relative;
+  top: 0;
+  width: 100%;
+  
+
+}
+
+#title {
+  position: relative;
+  font-size: 40px;
+  
+}
+
+#googleButton {
+  --background: #dd4b39;
+}
+
+#emailButton {
+  --background: #4c8dff;
+}
+
+#facebookButton {
+  --background: #3b5998;
+}
+
+.input-item {
+  --border-width: 2px;
+  --border-radius: 10px
+}
+
+.icon {
+  margin-right: 12px;
+}
+//#FF0000 #E2FF00
